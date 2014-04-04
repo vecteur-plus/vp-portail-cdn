@@ -1,5 +1,5 @@
 {
-  "name": "vp-cdn-portail",
+  "name": "vp-portail-cdn",
   "version": "1.0.0",
   "description": "VP CDN Data for portail",
   "main": "index.js",
