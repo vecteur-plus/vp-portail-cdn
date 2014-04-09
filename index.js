@@ -63,7 +63,7 @@ var data = module.exports = {
     }
   }
   "animate.css": {
-    versions: ["3.1.0],
+    versions: ["3.1.0"],
     url: function (version) {
       return "//cdnjs.cloudflare.com/ajax/libs/animate.css/" + version + "/animate.min.css";
     }
