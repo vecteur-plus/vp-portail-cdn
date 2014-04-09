@@ -55,6 +55,18 @@ var data = module.exports = {
     url: function (version) {
       return "//cdnjs.cloudflare.com/ajax/libs/ng-tags-input/" + version + "/ng-tags-input.min.js";
     }
+  },
+  "angular-bindonce": {
+    versions: ["0.2.2"],
+    url: function (version) {
+      return "//cdnjs.cloudflare.com/ajax/libs/angular-bindonce/" + version + "/angular-bindonce.min.js";
+    }
+  }
+  "animate.css": {
+    versions: ["3.1.0],
+    url: function (version) {
+      return "//cdnjs.cloudflare.com/ajax/libs/animate.css/" + version + "/animate.min.css";
+    }
   }
 };
 
