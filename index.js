@@ -61,7 +61,7 @@ var data = module.exports = {
     url: function (version) {
       return "//cdnjs.cloudflare.com/ajax/libs/angular-bindonce/" + version + "/angular-bindonce.min.js";
     }
-  }
+  },
   "animate.css": {
     versions: ["3.1.0"],
     url: function (version) {
