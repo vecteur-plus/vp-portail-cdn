@@ -14,7 +14,7 @@ var data = module.exports = {
     }
   },
   "angular-bootstrap": {
-    versions: ["0.10.0"],
+    versions: ["0.10.0", "0.11.0"],
     url: function (version) {
       return "//cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/" + version + "/ui-bootstrap-tpls.min.js";
     }
