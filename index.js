@@ -68,7 +68,7 @@ var data = module.exports = {
       return "//cdnjs.cloudflare.com/ajax/libs/animate.css/" + version + "/animate.min.css";
     }
   },
-    "underscore.string": {
+  "underscore.string": {
     versions: ["2.3.3"],
     url: function (version) {
       return "//cdnjs.cloudflare.com/ajax/libs/underscore.string/" + version + "/underscore.string.min.js";
