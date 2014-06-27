@@ -73,6 +73,12 @@ var data = module.exports = {
     url: function (version) {
       return "//cdnjs.cloudflare.com/ajax/libs/underscore.string/" + version + "/underscore.string.min.js";
     }
+  },
+  "moment": {
+    versions: ["2.7.0"],
+    url: function (version) {
+      return "//cdnjs.cloudflare.com/ajax/libs/moment.js/" + version + "/moment.min.js";
+    }
   }
 };
 
