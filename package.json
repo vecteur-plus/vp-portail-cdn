@@ -1,6 +1,6 @@
 {
   "name": "vp-portail-cdn",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "VP CDN Data for portail",
   "main": "index.js",
   "repository": {
@@ -10,7 +10,7 @@
   "author": "Portail Dev",
   "homepage": "https://github.com/vecteur-plus/vp-portail-cdn",
   "devDependencies": {
-    "grunt": "~0.4.2",
-    "grunt-release": "~0.6.0"
+    "grunt": "~0.4.5",
+    "grunt-release": "~0.7.0"
   }
 }
