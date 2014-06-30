@@ -79,6 +79,12 @@ var data = module.exports = {
     url: function (version) {
       return "//cdnjs.cloudflare.com/ajax/libs/moment.js/" + version + "/moment.min.js";
     }
+  },
+  "moment-timezone": {
+    versions: ["0.1.0"],
+    url: function (version) {
+      return "//cdnjs.cloudflare.com/ajax/libs/moment-timezone/" + version + "/moment-timezone.min.js";
+    }
   }
 };
 
