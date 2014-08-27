@@ -27,7 +27,7 @@ var data = module.exports = {
     }
   },
   "fastclick": {
-    versions: ["1.0.3", "1.0.0"],
+    versions: ["1.0.3", "1.0.2", "1.0.0"],
     url: function (version) {
       return "//cdnjs.cloudflare.com/ajax/libs/fastclick/" + version + "/fastclick.min.js";
     }
