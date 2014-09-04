@@ -20,9 +20,8 @@ var data = module.exports = {
     }
   },
   "angular-ui-router": {
-    versions: ["0.2.10", "0.2.9", "0.2.8"],
+    versions: ["0.2.11", "0.2.10", "0.2.9", "0.2.8"],
     url: function (version) {
-      version = "0.2.8";
       return "//cdnjs.cloudflare.com/ajax/libs/angular-ui-router/" + version + "/angular-ui-router.min.js";
     }
   },
