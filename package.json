@@ -1,6 +1,6 @@
 {
   "name": "vp-portail-cdn",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "VP CDN Data for portail",
   "main": "index.js",
   "repository": {
