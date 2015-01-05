@@ -8,19 +8,19 @@ var data = module.exports = {
     }
   },
   "bootstrap": {
-    versions: ["3.2.0", "3.1.1"],
+    versions: ["3.2.1", "3.2.0", "3.1.1"],
     url: function (version) {
       return "//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/" + version + "/js/bootstrap.min.js";
     }
   },
   "angular-bootstrap": {
-    versions: ["0.11.2", "0.11.0", "0.10.0"],
+    versions: ["0.12.0", "0.11.2", "0.11.1", "0.11.0", "0.10.0"],
     url: function (version) {
       return "//cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/" + version + "/ui-bootstrap-tpls.min.js";
     }
   },
   "angular-ui-router": {
-    versions: ["0.2.11", "0.2.10", "0.2.9", "0.2.8"],
+    versions: ["0.2.13", "0.2.12", "0.2.11", "0.2.10", "0.2.9", "0.2.8"],
     url: function (version) {
       return "//cdnjs.cloudflare.com/ajax/libs/angular-ui-router/" + version + "/angular-ui-router.min.js";
     }
@@ -80,6 +80,7 @@ var data = module.exports = {
     }
   },
   "moment-timezone": {
+    versions: ["0.2.0"],
     versions: ["0.2.1", "0.1.0"],
     url: function (version) {
       return "//cdnjs.cloudflare.com/ajax/libs/moment-timezone/" + version + "/moment-timezone.min.js";
@@ -101,7 +102,7 @@ var angularFiles = [
 
 angularFiles.forEach(function (item) {
   data[item] = {
-    versions: ["1.3.0", "1.2.23", "1.2.22", "1.2.19", "1.2.18", "1.2.16", "1.2.15", "1.2.14", "1.2.13", "1.2.12", "1.2.11", "1.2.10", "1.2.9", "1.2.8", "1.2.7", "1.2.6", "1.2.5", "1.2.4", "1.2.3", "1.2.2", "1.2.1", "1.2.0", "1.0.8", "1.0.7", "1.0.6", "1.0.5", "1.0.4", "1.0.3", "1.0.2", "1.0.1"],
+    versions: ["1.3.8", "1.3.7", "1.3.6", "1.3.5", "1.3.4", "1.3.3", "1.3.2", "1.3.1", "1.3.0", "1.2.23", "1.2.22", "1.2.19", "1.2.18", "1.2.16", "1.2.15", "1.2.14", "1.2.13", "1.2.12", "1.2.11", "1.2.10", "1.2.9", "1.2.8", "1.2.7", "1.2.6", "1.2.5", "1.2.4", "1.2.3", "1.2.2", "1.2.1", "1.2.0", "1.0.8", "1.0.7", "1.0.6", "1.0.5", "1.0.4", "1.0.3", "1.0.2", "1.0.1"],
     url: function (version) {
       return "//ajax.googleapis.com/ajax/libs/angularjs/" + version + "/" + item + ".min.js";
     }
