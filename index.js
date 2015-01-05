@@ -80,8 +80,7 @@ var data = module.exports = {
     }
   },
   "moment-timezone": {
-    versions: ["0.2.0"],
-    versions: ["0.2.1", "0.1.0"],
+    versions: ["0.2.1", "0.2.0", "0.1.0"],
     url: function (version) {
       return "//cdnjs.cloudflare.com/ajax/libs/moment-timezone/" + version + "/moment-timezone.min.js";
     }
