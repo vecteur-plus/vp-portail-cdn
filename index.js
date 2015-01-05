@@ -8,7 +8,7 @@ var data = module.exports = {
     }
   },
   "bootstrap": {
-    versions: ["3.2.1", "3.2.0", "3.1.1"],
+    versions: ["3.3.1", "3.3.0", "3.2.0", "3.1.1"],
     url: function (version) {
       return "//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/" + version + "/js/bootstrap.min.js";
     }
