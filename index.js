@@ -25,6 +25,12 @@ var data = module.exports = {
       return "//cdnjs.cloudflare.com/ajax/libs/angular-ui-router/" + version + "/angular-ui-router.min.js";
     }
   },
+  "angular-strap": {
+    versions: ["2.1.6", "2.1.5", "2.1.4"],
+    url: function (version) {
+      return "//cdnjs.cloudflare.com/ajax/libs/angular-strap/" + version + "/angular-strap.min.js";
+    }
+  },
   "fastclick": {
     versions: ["1.0.3", "1.0.2", "1.0.0"],
     url: function (version) {
@@ -50,7 +56,7 @@ var data = module.exports = {
     }
   },
   "ng-tags-input": {
-    versions: ["2.0.0"],
+    versions: ["2.1.1-1", "2.0.0"],
     url: function (version) {
       return "//cdnjs.cloudflare.com/ajax/libs/ng-tags-input/" + version + "/ng-tags-input.min.js";
     }
@@ -101,7 +107,7 @@ var angularFiles = [
 
 angularFiles.forEach(function (item) {
   data[item] = {
-    versions: ["1.3.8", "1.3.7", "1.3.6", "1.3.5", "1.3.4", "1.3.3", "1.3.2", "1.3.1", "1.3.0", "1.2.23", "1.2.22", "1.2.19", "1.2.18", "1.2.16", "1.2.15", "1.2.14", "1.2.13", "1.2.12", "1.2.11", "1.2.10", "1.2.9", "1.2.8", "1.2.7", "1.2.6", "1.2.5", "1.2.4", "1.2.3", "1.2.2", "1.2.1", "1.2.0", "1.0.8", "1.0.7", "1.0.6", "1.0.5", "1.0.4", "1.0.3", "1.0.2", "1.0.1"],
+    versions: ["1.3.9", "1.3.8", "1.3.7", "1.3.6", "1.3.5", "1.3.4", "1.3.3", "1.3.2", "1.3.1", "1.3.0", "1.2.23", "1.2.22", "1.2.19", "1.2.18", "1.2.16", "1.2.15", "1.2.14", "1.2.13", "1.2.12", "1.2.11", "1.2.10", "1.2.9", "1.2.8", "1.2.7", "1.2.6", "1.2.5", "1.2.4", "1.2.3", "1.2.2", "1.2.1", "1.2.0", "1.0.8", "1.0.7", "1.0.6", "1.0.5", "1.0.4", "1.0.3", "1.0.2", "1.0.1"],
     url: function (version) {
       return "//ajax.googleapis.com/ajax/libs/angularjs/" + version + "/" + item + ".min.js";
     }
